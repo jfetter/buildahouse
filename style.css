@@ -1,0 +1,44 @@
+
+/*since this container encapsulates all the elements
+on the page, set width to 100% otherwise it will
+be harder to measure everything else iside of it*/
+#container{
+  width: 100%;
+  padding: 10px;
+}
+/*
+to keep this container beside
+the meadow where the house will be
+built I am floating it right*/
+.imagebox{
+  float: right;
+  display: block; 
+  font-weight: bold;
+  padding: 10px;
+}
+
+/*while the mouse is hovering
+over one of the images, that
+particular image will show a
+green border*/
+img:hover{
+  border: 5px solid green;
+}
+
+/*I want the images to stack
+vertically, so I am giving them
+a block display*/
+img{
+  display: block;
+  max-width: 40vw;
+  max-height: 25vh;
+}
+
+
+.to{
+    background-color: green;
+    height: 60vh;
+    width: 40vw;
+    border: 2px solid black;
+}
+
